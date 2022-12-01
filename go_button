@@ -1,0 +1,240 @@
+tell application id "com.figure53.QLab.5" to tell front workspace
+	go
+	set fadeCues to {}
+	
+	repeat with eachCue in (active cues as list)
+		if q type of eachCue is "Audio" and q name of eachCue contains "#01" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam1" to "43 10 3E 12 01 00 33 00 00 00 00 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam1"
+		end if
+		if q type of eachCue is "Audio" and q name of eachCue contains "#02" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam2" to "43 10 3E 12 01 00 33 00 00 00 01 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam2"
+		end if
+		if q type of eachCue is "Audio" and q name of eachCue contains "#03" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam3" to "43 10 3E 12 01 00 33 00 00 00 02 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam3"
+		end if
+		if q type of eachCue is "Audio" and q name of eachCue contains "#04" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam4" to "43 10 3E 12 01 00 33 00 00 00 03 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam4"
+		end if
+		if q type of eachCue is "Audio" and q name of eachCue contains "#05" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam5" to "43 10 3E 12 01 00 33 00 00 00 04 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam5"
+		end if
+		if q type of eachCue is "Audio" and q name of eachCue contains "#06" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam6" to "43 10 3E 12 01 00 33 00 00 00 05 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam6"
+		end if
+		if q type of eachCue is "Audio" and q name of eachCue contains "#07" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam7" to "43 10 3E 12 01 00 33 00 00 00 06 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam7"
+		end if
+		if q type of eachCue is "Audio" and q name of eachCue contains "#08" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam8" to "43 10 3E 12 01 00 33 00 00 00 07 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam8"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#09" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam9" to "43 10 3E 12 01 00 33 00 00 00 08 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam9"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#10" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam10" to "43 10 3E 12 01 00 33 00 00 00 09 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam10"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#11" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam11" to "43 10 3E 12 01 00 33 00 00 00 0A 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam11"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#12" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam12" to "43 10 3E 12 01 00 33 00 00 00 0B 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam12"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#13" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam13" to "43 10 3E 12 01 00 33 00 00 00 0C 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam13"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#14" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam14" to "43 10 3E 12 01 00 33 00 00 00 0D 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam14"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#15" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam15" to "43 10 3E 12 01 00 33 00 00 00 0E 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam15"
+		end if
+		
+		if q type of eachCue is "Audio" and q name of eachCue contains "#16" then
+			set currentLevel to eachCue getLevel row 0 column 0
+			set levelBrut to round (currentLevel + 60) / 0.0645
+			set MSB to (levelBrut / 127)
+			set MSB to MSB div 1
+			set LSBdec to levelBrut - ((MSB) * 127)
+			set theHexList to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"}
+			set theHexValue to ""
+			set theFirstItem to item ((LSBdec div 16) + 1) of theHexList
+			set theSecondItem to item (((LSBdec / 16 mod 1) * 16) + 1) of theHexList
+			set theHexValue to (theHexValue & theFirstItem & theSecondItem) as string
+			set sysex message of cue "yam16" to "43 10 3E 12 01 00 33 00 00 00 0F 00 00 00" & space & "0" & MSB & space & theHexValue
+			start cue "yam16"
+		end if
+		
+	end repeat
+end tell  
