@@ -1,0 +1,156 @@
+; ------- Bome MIDI Translator: signed project file
+; ------- You can modify this file as you like, but that will invalidate the
+; ------- signature so that it cannot be opened in the BomeBox or MT Player anymore.
+;
+[Preset.0]
+Active=1
+Comments=
+Incoming0=MID2MIDA0001000ALS9 Port 1F043103E1201003300000000000000ooppF7
+Incoming1=MID1F043103E127FF7
+Incoming10=MID2MIDA0001000ALS9 Port 1F043103E1201003300000009000000ooppF7
+Incoming11=MID2MIDA0001000ALS9 Port 1F043103E120100330000000A000000ooppF7
+Incoming12=MID2MIDA0001000ALS9 Port 1F043103E120100330000000B000000ooppF7
+Incoming13=MID2MIDA0001000ALS9 Port 1F043103E120100330000000C000000ooppF7
+Incoming14=MID2MIDA0001000ALS9 Port 1F043103E120100330000000D000000ooppF7
+Incoming15=MID2MIDA0001000ALS9 Port 1F043103E120100330000000E000000ooppF7
+Incoming16=MID2MIDA0001000ALS9 Port 1F043103E120100330000000F000000ooppF7
+Incoming17=Tim0TimT0006timer1
+Incoming18=Tim0TimT0006timer2
+Incoming19=Tim0TimT0006timer3
+Incoming2=MID2MIDA0001000ALS9 Port 1F043103E1201003300000001000000ooppF7
+Incoming20=Tim0TimT0006timer4
+Incoming21=Tim0TimT0006timer5
+Incoming22=Tim0TimT0006timer6
+Incoming23=Tim0TimT0006timer7
+Incoming24=Tim0TimT0006timer8
+Incoming25=Tim0TimT0006timer9
+Incoming26=Tim0TimT0007timer10
+Incoming27=Tim0TimT0007timer11
+Incoming28=Tim0TimT0007timer12
+Incoming29=Tim0TimT0007timer13
+Incoming3=MID2MIDA0001000ALS9 Port 1F043103E1201003300000002000000ooppF7
+Incoming30=Tim0TimT0007timer14
+Incoming31=Tim0TimT0007timer15
+Incoming32=Tim0TimT0007timer16
+Incoming33=MID1F043103E1201010B0000001E0000000020F7
+Incoming4=MID2MIDA0001000ALS9 Port 1F043103E1201003300000003000000ooppF7
+Incoming5=MID2MIDA0001000ALS9 Port 1F043103E1201003300000004000000ooppF7
+Incoming6=MID2MIDA0001000ALS9 Port 1F043103E1201003300000005000000ooppF7
+Incoming7=MID2MIDA0001000ALS9 Port 1F043103E1201003300000006000000ooppF7
+Incoming8=MID2MIDA0001000ALS9 Port 1F043103E1201003300000007000000ooppF7
+Incoming9=MID2MIDA0001000ALS9 Port 1F043103E1201003300000008000000ooppF7
+Name=New Preset
+Name0=incoming LS9 fader 1
+Name1=heartbeat
+Name10=incoming LS9 fader 10
+Name11=incoming LS9 fader 11
+Name12=incoming LS9 fader 12
+Name13=incoming LS9 fader 13
+Name14=incoming LS9 fader 14
+Name15=incoming LS9 fader 15
+Name16=incoming LS9 fader 16
+Name17=timer1
+Name18=timer2
+Name19=timer3
+Name2=incoming LS9 fader 2
+Name20=timer4
+Name21=timer5
+Name22=timer6
+Name23=timer7
+Name24=timer8
+Name25=timer9
+Name26=timer10
+Name27=timer11
+Name28=timer12
+Name29=timer13
+Name3=incoming LS9 fader 3
+Name30=timer14
+Name31=timer15
+Name32=timer16
+Name33=test
+Name4=incoming LS9 fader 4
+Name5=incoming LS9 fader 5
+Name6=incoming LS9 fader 6
+Name7=incoming LS9 fader 7
+Name8=incoming LS9 fader 8
+Name9=incoming LS9 fader 9
+Options0=Actv01Stop00OutO00StMa00000004oo=oo*128oo=pp+ooga=oolabel0006__cmt>
+Options1=Actv01Stop00OutO00
+Options10=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgj=oo
+Options11=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgk=oo
+Options12=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgl=oo
+Options13=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgm=oo
+Options14=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgn=oo
+Options15=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgp=oo
+Options16=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgq=oo
+Options17=Actv01Stop00OutO00
+Options18=Actv01Stop00OutO00
+Options19=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00StMa00000004oo=oo*128oo=pp+oogb=oolabel0006__cmt>
+Options20=Actv01Stop00OutO00
+Options21=Actv01Stop00OutO00
+Options22=Actv01Stop00OutO00
+Options23=Actv01Stop00OutO00
+Options24=Actv01Stop00OutO00
+Options25=Actv01Stop00OutO00
+Options26=Actv01Stop00OutO00
+Options27=Actv01Stop00OutO00
+Options28=Actv01Stop00OutO00
+Options29=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00StMa00000004oo=oo*128oo=pp+oogc=oolabel0006__cmt>
+Options30=Actv01Stop00OutO00
+Options31=Actv01Stop00OutO00
+Options32=Actv01Stop00OutO00
+Options33=Actv01Stop00OutO00
+Options4=Actv01Stop00OutO00StMa00000004oo=oo*128oo=pp+oogd=oolabel0006__cmt>
+Options5=Actv01Stop00OutO00StMa00000004oo=oo*128oo=pp+ooge=oolabel0006__cmt>
+Options6=Actv01Stop00OutO00StMa00000004oo=oo*128oo=pp+oogf=oolabel0006__cmt>
+Options7=Actv01Stop00OutO00StMa00000004oo=oo*128oo=pp+oogg=oolabel0006__cmt>
+Options8=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgh=oo
+Options9=Actv01Stop00OutO00StMa00000003oo=oo*128oo=oo+ppgi=oo
+Outgoing0=Tim0TimS0006timer11:20:1
+Outgoing1=None
+Outgoing10=Tim0TimS0007timer101:20:1
+Outgoing11=Tim0TimS0007timer111:20:1
+Outgoing12=Tim0TimS0007timer121:20:1
+Outgoing13=Tim0TimS0007timer131:20:1
+Outgoing14=Tim0TimS0007timer141:20:1
+Outgoing15=Tim0TimS0007timer151:20:1
+Outgoing16=Tim0TimS0007timer161:20:1
+Outgoing17=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;--&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#1&quot; then&#10;&#9;&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#1&quot; then&#10;&#9;&#9;&#9;set newLevel to (ga * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>ga</Params></Outgoing>
+Outgoing18=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;--&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#2&quot; then&#10;&#9;&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#2&quot; then&#10;&#9;&#9;&#9;set newLevel to (gb * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gb</Params></Outgoing>
+Outgoing19=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;--&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#3&quot; then&#10;&#9;&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#3&quot; then&#10;&#9;&#9;&#9;set newLevel to (gc * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gc</Params></Outgoing>
+Outgoing2=Tim0TimS0006timer21:20:1
+Outgoing20=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;--&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#4&quot; then&#10;&#9;&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#4&quot; then&#10;&#9;&#9;&#9;set newLevel to (gd * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gd</Params></Outgoing>
+Outgoing21=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;--&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#5&quot; then&#10;&#9;&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#5&quot; then&#10;&#9;&#9;&#9;set newLevel to (ge * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>ge</Params></Outgoing>
+Outgoing22=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;--&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#6&quot; then&#10;&#9;&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#6&quot; then&#10;&#9;&#9;&#9;set newLevel to (gf * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gf</Params></Outgoing>
+Outgoing23=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;--&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#7&quot; then&#10;&#9;&#9;if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#7&quot; then&#10;&#9;&#9;&#9;set newLevel to (gg * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gg</Params></Outgoing>
+Outgoing24=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#8&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#8&quot; then&#10;&#9;&#9;&#9;set newLevel to (gh * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gh</Params></Outgoing>
+Outgoing25=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#9&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#9&quot; then&#10;&#9;&#9;&#9;set newLevel to (gi * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gi</Params></Outgoing>
+Outgoing26=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#10&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#10&quot; then&#10;&#9;&#9;&#9;set newLevel to (gj * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gj</Params></Outgoing>
+Outgoing27=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#11&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#11&quot; then&#10;&#9;&#9;&#9;set newLevel to (gk * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gk</Params></Outgoing>
+Outgoing28=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#12&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#12&quot; then&#10;&#9;&#9;&#9;set newLevel to (gl * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gl</Params></Outgoing>
+Outgoing29=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#13&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#13&quot; then&#10;&#9;&#9;&#9;set newLevel to (gm*  0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gm</Params></Outgoing>
+Outgoing3=Tim0TimS0006timer31:20:1
+Outgoing30=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#14&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#14&quot; then&#10;&#9;&#9;&#9;set newLevel to (gn * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gn</Params></Outgoing>
+Outgoing31=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#15&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#15&quot; then&#10;&#9;&#9;&#9;set newLevel to (gp * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gp</Params></Outgoing>
+Outgoing32=ApSc<Outgoing Action="AppleScript"><Script>tell application id &quot;com.figure53.QLab.5&quot; to tell front workspace&#10;&#9;repeat with eachCue in (active cues as list)&#10;&#9;                          if q type of eachCue is &quot;Audio&quot; and q name of eachCue contains &quot;#16&quot; then&#10;&#9;--&#9;if q type of eachCue is &quot;Fade&quot; and q name of eachCue contains &quot;#16&quot; then&#10;&#9;&#9;&#9;set newLevel to (gq * 0.0645 - 60)&#10;&#9;&#9;&#9;eachCue setLevel row 0 column 0 db newLevel&#10;&#9;&#9;end if&#10;&#9;end repeat&#10;end tell</Script><Params>gq</Params></Outgoing>
+Outgoing33=None
+Outgoing4=Tim0TimS0006timer41:20:1
+Outgoing5=Tim0TimS0006timer51:20:1
+Outgoing6=Tim0TimS0006timer61:20:1
+Outgoing7=Tim0TimS0006timer71:20:1
+Outgoing8=Tim0TimS0006timer81:20:1
+Outgoing9=Tim0TimS0006timer91:20:1
+PresetSwitchIgnore=0
+
+[Project]
+DefaultInPorts=MIDA0001000ALS9 Port 1
+DefaultOutPorts=MIDA0001000ALS9 Port 1
+Version=2
+
+[Signatures]
+SigName-1=[Midi Translator Pro Internal]
+Signature-1=JfmvLyAEkACyk3ItYiBHMyR/JFZszYuquqHx5gej/WnF0pH/DAXge0JgC/kmZXVJj4a+NWPDuHHnNi3kCOXlvTZt8yHhwR+tsaS9MkHazkvFd0JF5kiy6skH5nHNaTSUX42zfBmjcJ+5a+DhjWb7vH9vE3elCbp3ShtsBZQ326Y=
+SignedBy-1=Olivier Bourque
+
